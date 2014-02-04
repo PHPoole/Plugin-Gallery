@@ -1,12 +1,12 @@
 {
-    "name": "PHPoole/Plugin-Gallery",
+    "name": "phpoole/plugin-gallery",
     "type": "symfony1-plugin",
     "description": "PHPoole Gallery plugin",
     "keywords": ["phpoole", "plugin", "gallery"],
     "license": "MIT",
     "require": {
         "php": ">=5.3",
-        "Narno/PHPoole": "self.version",
+
         "composer/installers": "~1.0"
     },
     "extra": {
