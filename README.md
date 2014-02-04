@@ -7,7 +7,7 @@ Add this to your PHPoole ```composer.json``` file:
 
     {
       "require": {
-        "PHPoole/Plugin-Gallery": "master-dev"
+        "phpoole/plugin-gallery": "master-dev"
       },
       "repositories": [
         {
