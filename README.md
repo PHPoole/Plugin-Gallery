@@ -30,20 +30,14 @@ Add a ```gallery``` entry to the front matter of a page:
 
 #### Galleries list
 
-    {% extends "page.html" %}
-    {% block pagefooter %}
-    {% for item in site.pages('galeries') %}
+    {% for gallery in site.pages('galleries') %}
     <ul>
-    	<li><a href="{{ site.base_url }}/{{ item.path }}">{{ item.title }}</a></li>
+    	<li><a href="{{ site.base_url }}/{{ gallery.path }}">{{ gallery.title }}</a></li>
     </ul>
     {% endfor %}
-    {% endblock pagefooter %}
 
 #### Gallery page
 
-    {% extends "page.html" %}
-    {% block pagefooter %}
     {% for image in page.gallery %}
     <p><img src="{{ site.base_url }}/{{ page.path }}/{{ image.name }}" class="img-responsive" /></p>
     {% endfor %}
-    {% endblock pagefooter %}
