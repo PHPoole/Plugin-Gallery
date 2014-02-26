@@ -3,19 +3,7 @@
 Installation
 ------------
 
-Add this to your PHPoole ```composer.json``` file:
-
-    {
-      "require": {
-        "phpoole/plugin-gallery": "master-dev"
-      },
-      "repositories": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/PHPoole/plugin-Gallery"
-        }
-      ]
-    }
+    php composer.phar require phpoole/plugin-gallery:@dev --prefer-dist
 
 Usage
 -----
