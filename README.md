@@ -12,7 +12,7 @@ Add this to your PHPoole ```composer.json``` file:
       "repositories": [
         {
           "type": "vcs",
-          "url": "https://github.com/PHPoole/Plugin-Gallery"
+          "url": "https://github.com/PHPoole/plugin-Gallery"
         }
       ]
     }
