@@ -1,8 +1,9 @@
-[PHPoole](http://github.com/Narno/PHPoole/) Gallery plugin.
+[PHPoole](http://phpoole.narno.org) Gallery plugin.
 
 Installation
 ------------
 
+    cd _phpoole
     php composer.phar require phpoole/plugin-gallery:@dev --prefer-dist
 
 Usage
